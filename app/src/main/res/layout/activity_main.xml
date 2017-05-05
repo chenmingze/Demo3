@@ -10,7 +10,13 @@
     tools:context="stv.com.demo3.MainActivity">
 
     <TextView
+        android:id="@+id/hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <TextView
+        android:id="@+id/show"
+        android:layout_below="@id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
